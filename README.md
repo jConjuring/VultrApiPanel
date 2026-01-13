@@ -4,7 +4,7 @@
 
 ## 功能
 - API 密钥本地保存（`config.json`）
-- 一键获取区域/套餐/镜像
+- 一键获取区域/套餐/镜像（仅获取5刀以内套餐）
 - 创建、重装、删除服务器
 - 列表分页与状态提示
 
@@ -13,4 +13,5 @@
    - Windows: `python -m venv .venv`，然后 `\.venv\Scripts\activate`
 2. 安装依赖：`pip install -r requirements.txt`
 3. 启动：`python main.py`
+
 
